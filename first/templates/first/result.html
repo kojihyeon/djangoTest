@@ -1,0 +1,10 @@
+{% extends 'first/base.html' %}
+{% load static %}
+
+{% block content %}
+    <ul>
+        {% for num in numbers %}
+        <li>{{ num }}</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
